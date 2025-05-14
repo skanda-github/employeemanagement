@@ -1,0 +1,15 @@
+### Get employee by ID (with Optional)
+GET http://localhost:8080/employees/1
+Accept: application/json
+
+###
+
+### Get employee names by department using projection
+GET http://localhost:8080/employees/names?dept=HR
+Accept: application/json
+
+###
+
+### Get all employees as DTOs
+GET http://localhost:8080/employees/dtos
+Accept: application/json
